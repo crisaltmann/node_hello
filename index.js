@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Porta onde o servidor vai rodar
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Endpoint Hello World
 app.get('/', (req, res) => {
