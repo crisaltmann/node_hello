@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 app.get('/hello', (req, res) => {
   res.json({
-    message: 'Olá, mundo!',
+    message: 'Olá, mundo online render!',
     status: 'ok'
   });
 });
